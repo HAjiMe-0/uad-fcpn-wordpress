@@ -1,0 +1,19 @@
+# Credenciales y configuración privada.
+.env
+*.env
+!.env.example
+ACCESO.txt
+
+# Datos locales de WordPress y copias de seguridad.
+docker/wp-content/uploads/
+docker/database/
+*.sql
+*.sql.gz
+*.bak
+
+# Archivos del sistema y del editor.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
